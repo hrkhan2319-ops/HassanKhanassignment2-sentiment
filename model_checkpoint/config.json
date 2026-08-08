@@ -1,0 +1,14 @@
+{
+  "model": "linear-ensemble",
+  "n_members": 5,
+  "n_features": 306,
+  "embedding": "glove-wiki-gigaword-300 (mean pooled)",
+  "lexicon": "nltk opinion_lexicon (Hu & Liu)",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}
