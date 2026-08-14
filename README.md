@@ -57,7 +57,7 @@ This trains the ensemble (seconds on CPU), saves `model_checkpoint/`, evaluates 
 python predict.py public_test.csv my_predictions.csv
 ```
 
-## Stage 2 (after hidden_test.csv becomes available)
+## Stage 2 
 
 Copy `hidden_test.csv` to the repository root and execute all the cells of `stage2_notebook.ipynb`. This script does inference only, i.e., it loads the frozen Stage 1 checkpoint, calculates hidden-test accuracy and produces a confusion matrix, and generates `hidden_test_predictions.csv`. There is no training or other changes to the model.
 
